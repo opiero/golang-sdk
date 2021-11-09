@@ -27,7 +27,7 @@ There are two main structures:
 2) - This structure keeps the tokens and their expiration time and has to be passed by param each time a call has to be performed to any private API.
 */
 
-package sdk
+package meli
 
 import (
 	"bytes"
@@ -46,19 +46,19 @@ import (
 )
 
 const (
-	AuthURLMLA = "https://auth.mercadolibre.com.ar" // Argentina
-	AuthURLMLB = "https://auth.mercadolivre.com.br" // Brasil
-	AuthURLMco = "https://auth.mercadolibre.com.co" // Colombia
-	AuthURLMcr = "https://auth.mercadolibre.com.cr" // Costa Rica
-	AuthURLMec = "https://auth.mercadolibre.com.ec" // Ecuador
-	AuthURLMlc = "https://auth.mercadolibre.cl"     // Chile
-	AuthURLMLM = "https://auth.mercadolibre.com.mx" // Mexico
-	AuthURLMlu = "https://auth.mercadolibre.com.uy" // Uruguay
-	AuthURLMlv = "https://auth.mercadolibre.com.ve" // Venezuela
-	AuthURLMpa = "https://auth.mercadolibre.com.pa" // Panama
-	AuthURLMpe = "https://auth.mercadolibre.com.pe" // Peru
-	AuthURLMpt = "https://auth.mercadolivre.pt"     // Portugal
-	AuthURLMrd = "https://auth.mercadolibre.com.do" // Dominicana
+	AuthURLMLA = "https://auth.mercadolibre.com.ar"        // Argentina
+	AuthURLMLB = "https://auth.mercadolivre.com.br"        // Brasil
+	AuthURLMco = "https://auth.mercadolibre.com.co"        // Colombia
+	AuthURLMcr = "https://auth.mercadolibre.com.cr"        // Costa Rica
+	AuthURLMec = "https://auth.mercadolibre.com.ec"        // Ecuador
+	AuthURLMlc = "https://auth.mercadolibre.cl"            // Chile
+	AuthURLMLM = "https://auth.mercadolibre.com.mx"        // Mexico
+	AuthURLMlu = "https://auth.mercadolibre.com.uy"        // Uruguay
+	AuthURLMlv = "https://auth.mercadolibre.com.ve"        // Venezuela
+	AuthURLMpa = "https://auth.mercadolibre.com.pa"        // Panama
+	AuthURLMpe = "https://auth.mercadolibre.com.pe"        // Peru
+	AuthURLMpt = "https://auth.mercadolivre.pt"            // Portugal
+	AuthURLMrd = "https://auth.mercadolibre.com.do"        // Dominicana
 	AuthURlCBT = "https://global-selling.mercadolibre.com" // CBT
 
 	AuthoricationCode = "authorization_code"

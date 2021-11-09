@@ -1,3 +1,3 @@
-module github.com/opiero/golang-sdk
+module sdk
 
 go 1.17
